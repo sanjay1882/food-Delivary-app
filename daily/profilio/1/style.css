@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+   
+   height: auto;
+}
+header{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 100;
+
+}
+.logo{
+  
+    height: 10%;
+    width: 30%;
+transition: 0.3s;
+    margin-right: 270px;
+    border-radius: 25px;
+
+}
+.logo:hover{
+    transition: 0.3s;
+}
+.navigation{
+    display: flex;
+}
+.navigation a{
+text-decoration: none;
+color: #ededf5;
+padding: 10px 15px;
+border-radius:20px;
+margin: 0 10px;
+font-weight:600;
+
+}
+ .navigation a:hover,.navigation a.active{
+    background: #000203;
+    color: #fff;
+ }
+ .Parallax{
+    justify-content: center;
+ align-items: center;
+    display: flex;
+    position: relative;
+    height: 100vh;
+    background-image: url(pexels-jahoo-clouseau-382177\ \(1\).jpg);
+    background-repeat:none;
+    background-size: cover;
+    opacity: 90%;
+    
+ }
+ #texta{
+    position: absolute;
+    font-size: 25px;
+    color: #fff;
+text-align:start;
+padding-top: 250px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+margin-top: 0px;
+transition: 0.5s;
+ }
+
+ .search{
+    margin-bottom: 170px;
+background-color: #fff;
+ height: 65px;
+ width: 55%;
+ padding-top:10px;
+z-index: 0;
+border-radius: 27px;
+margin-top: 190px;
+   margin-left: 50px;
+    margin-right: -50px;
+
+ }
+ .search .text{
+    position: relative;
+    color: #4070f4;
+    font-size: 27px;
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+cursor: default;
+z-index: 0;
+ }
+ 
+
+ .search .text.first-text{
+color: #000203;
+margin-left: 50px;
+justify-items: center;
+text-align: center;
+z-index: 0;
+ }
+ 
+
+
+
+ #speak{
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+float: right;
+margin-right: 30px;
+z-index: 2;
+margin-top: 7px;
+
+ }
+ .text.sec-text:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+   width: 100%;
+    background-color:#fff ;
+    border-left: 2px solid;
+    animation:  animate 4s steps(12) infinite;
+    z-index: 0;
+ }
+ @keyframes animate{
+    40%, 60%{
+        left: calc(100% + 4px);
+        
+    }
+    100%{
+        left: 0%;
+    }
+ }
+
+  .search .bx-search{
+    float: left;
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 8px;
+    margin-left: 29px;
+cursor: pointer;
+  }
+  .search .first-text{
+    text-align: center;
+   margin-left: 20%;
+  }
+.sec{
+    position: relative;
+    background: #f3faf9;
+  
+    padding: 5px;
+}
+.sec .abouthead{
+    text-align: center;
+    font-weight: 400;
+
+
+}
+.abouthead{
+    padding: 0px 30px 10px 10px;
+    font-size: medium;
+}
+.sec .headquotes{
+    font-weight: 600; 
+    text-align: center;
+margin-left: 25%;
+    justify-content: center;
+}
+.headquotes{
+    width: 50%;
+}
+.headqts{
+font-weight: 400;
+margin-top: 30px;
+}
+.quotes{
+    display: block;
+}
+
+
+
+
+.sec2{
+    position: relative;
+    background: #f3faf9;
+  display: flex;
+    padding: 100px;
+    overflow: hidden;
+}
+.sec2 #img1{
+    width: 350px;
+    height: 460px;
+    padding: 10px;
+    border-radius: 34px;
+    }
+    .sec2 #img2{
+        width: 56%;
+        height: 460px;
+        padding: 10px;
+        border-radius: 34px;
+        }
+       
+
+    
+        .sec3 h4{
+          
+       padding: 30px 0px 30px 0px;
+            width: 100%;
+            background: #ccd7dd;
+            color: #000203;
+            text-align: center;
+       position: relative;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .sec4{
+background: #fff;
+width: 100%;
+height: auto;
+justify-items: center;
+align-items: center;
+
+
+
+        }
+
+        .sec4 .divcontainer{
+            width: 100%;
+            position: absolute;
+         
+            background: #ccd7dd;
+            align-items: center;
+            justify-items: center;
+            gap: 20px;
+            padding: 20px;
+            
+            height: auto;
+        }
+
+
+        .divcontainer{
+            display: flex;
+           align-items: center;
+            justify-content: center;
+     
+            
+        }
+.divcontainer .div1{
+    width:290px;
+    height: 260px;
+    background-color: #fff;
+    padding: 20px;
+
+border-radius: 15px;
+}
+
+
+  #techboxgap{
+        margin-bottom: 15px;
+    
+   }
+.sec5{
+    background: #fff;
+    width: 100%;
+    height: auto;
+    justify-items: center;
+    align-items: center;
+   
+    color: #000203;
+    
+            }
+    
+        .col-1 .techicon  {
+            height: 70px;   
+            width: 70px;  
+            border-radius: 40px; 
+            background-color: #ccd7dd;    
+        }
+        .col-2  .techicon  {
+            height: 70px;   
+            width: 70px;  
+            border-radius: 40px; 
+            background-color: #ccd7dd;    
+        }
+        .col-3  .techicon  {
+            height: 70px;   
+            width: 70px;  
+            border-radius: 40px; 
+            background-color: #ccd7dd;    
+        }
+        .col-3{
+            margin-top: 12px;
+        }
+        .techhead{
+            display: flex;
+        }
+        .techhead .headtech{
+text-align: center;
+margin-top:20px;
+margin-left: 10px;
+
+
+        }
+        .techhead .headtech h3{
+
+            text-align: center;
+        }
+        .ball
+        {
+            margin-left:0px;
+        }
+        .air-baloon{
+        height: 150px;
+        width: 140px;
+        z-index: -1;
+        margin-top:630px;
+        position: relative;
+
+        
+
+        }
+        .div1:hover {
+            background-color: #0d6ea3;
+            transition: 1s;
+            cursor: pointer;
+                    }
+                 

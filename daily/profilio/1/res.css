@@ -1,0 +1,172 @@
+@media screen and  (max-width:650px){
+
+
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+   width: 100vh;
+    height: auto;
+ }
+ header{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+}
+.logo{
+  
+    height: 100px;
+    width: 60vh;
+transition: 0.3s;
+    
+  text-align: center;
+    border-radius: 25px;
+
+}
+.navigation a{
+    text-decoration: none;
+    color: #ededf5;
+    padding: 10px 15px;
+    border-radius:20px;
+    margin: 0 10px;
+    font-weight:600;
+    display: none;
+    }
+     .navigation a:hover,.navigation a.active{
+        background: #000203;
+        color: #fff;
+     }
+     .Parallax{
+        justify-content: center;
+ 
+        position: relative;
+        height: 1300px;
+        background-image: url(pexels-jahoo-clouseau-382177\ \(1\).jpg);
+        background-repeat:none;
+        background-size: cover;
+        opacity: 90%;
+        
+     }
+     .search{
+        margin-bottom: 140px;
+    background-color: #fff;
+     height: 105px;
+     width: 100%;
+padding-top: 25px;
+    z-index: 0;
+    border-radius: 47px;
+    margin-top: 520px;
+    border: 1px solid black;
+display: block;
+      
+    
+     }
+     .search .text{
+        position: relative;
+        color: #4070f4;
+        font-size: 27px;
+        font-weight: 600;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    cursor: default;
+    z-index: 0;
+
+
+     }
+     .search .text.first-text{
+        color: #000203;
+        margin-left: 50px;
+        justify-items: center;
+        text-align: center;
+        z-index: 0;
+         }
+         
+        
+        
+        
+         #speak{
+            height: 35px;
+            width: 35px;
+            cursor: pointer;
+        float: right;
+        margin-right: 30px;
+        
+        margin-top: 0px;
+        
+         }
+
+
+
+         #texta{
+            position: absolute;
+            font-size: 40px;
+            color: #fff;
+        text-align:start;
+         text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+       display: block;
+        transition: 0.5s;
+        
+z-index: -2;
+         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         .sec{
+            position: relative;
+            background: #f3faf9;
+          
+            padding: 5px;
+        }
+        .sec .abouthead{
+            text-align: center;
+            font-weight: 400;
+        
+        
+        }
+        .abouthead{
+            padding: 0px 30px 10px 10px;
+            font-size: medium;
+        }
+        .sec .headquotes{
+            font-weight: 600; 
+            text-align: center;
+        margin-left: 25%;
+            justify-content: center;
+        }
+        .headquotes{
+            width: 50%;
+        }
+        .headqts{
+        font-weight: 400;
+        margin-top: 30px;
+        }
+        .quotes{
+            display: block;
+        }
+}
